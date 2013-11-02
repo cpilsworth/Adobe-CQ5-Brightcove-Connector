@@ -1,0 +1,9 @@
+Export-Package: *
+Import-Package: *
+Private-Package: *
+# Include-Resource: 
+Bundle-Name: Brightcove API
+Bundle-Description: Brightcove API Wrapper
+Bundle-SymbolicName: com.brightcove.proserve.mediaapi.wrapper
+Bundle-Version: 1.0.0-SNAPSHOT
+Bundle-Activator: com.brightcove.proserve.mediaapi.wrapper.Activator

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Defines which repository items are generally included -->
+<workspaceFilter version="1.0">
+    <!--  remove compiled JSP classes -->
+    <filter root="/var/classes/org/apache/jsp/apps/brightcove" />
+
+    <filter root="/apps">
+        <include pattern="/apps/brightcove(/.*)?" />
+        <exclude pattern="/apps/brightcove/config(.*)?" />
+    </filter>
+
+    <filter root="/etc/designs/cs/brightcove">
+        <include pattern="/etc/designs/cs/brightcove(/.*)?" />
+    </filter>
+
+    <filter root="/libs/cq/gui/content/common/links"/>
+
+</workspaceFilter>

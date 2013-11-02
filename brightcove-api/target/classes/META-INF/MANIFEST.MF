@@ -1,0 +1,32 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1383395032057
+Build-Jdk: 1.6.0_65
+Built-By: cpilsworth
+Bundle-ManifestVersion: 2
+Bundle-Name: Brightcove API
+Bundle-SymbolicName: com.brightcove.proserve.brightcove-api
+Bundle-Version: 2.2.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.brightcove.proserve.mediaapi.webservices;uses:="java
+ x.servlet,org.apache.sling.api,org.apache.sling.api.servlets";version="
+ 2.2.0.SNAPSHOT",com.brightcove.proserve.mediaapi.wrapper;uses:="com.bri
+ ghtcove.proserve.mediaapi.wrapper.apiobjects,com.brightcove.proserve.me
+ diaapi.wrapper.apiobjects.enums,com.brightcove.proserve.mediaapi.wrappe
+ r.exceptions,org.json,org.osgi.framework,org.slf4j";version="2.2.0.SNAP
+ SHOT",com.brightcove.proserve.mediaapi.wrapper.apiobjects;uses:="com.br
+ ightcove.proserve.mediaapi.wrapper.apiobjects.enums,org.json";version="
+ 2.2.0.SNAPSHOT",com.brightcove.proserve.mediaapi.wrapper.apiobjects.enu
+ ms;version="2.2.0.SNAPSHOT",com.brightcove.proserve.mediaapi.wrapper.ex
+ ceptions;uses:="org.json";version="2.2.0.SNAPSHOT",com.brightcove.prose
+ rve.mediaapi.wrapper.json;uses:="com.brightcove.proserve.mediaapi.wrapp
+ er.exceptions,org.apache.http";version="2.2.0.SNAPSHOT",com.brightcove.
+ proserve.mediaapi.wrapper.utils;version="2.2.0.SNAPSHOT"
+Import-Package: javax.imageio,javax.servlet,org.apache.http,org.apache.h
+ ttp.client,org.apache.http.client.methods,org.apache.http.client.utils,
+ org.apache.http.entity.mime,org.apache.http.entity.mime.content,org.apa
+ che.http.impl.client,org.apache.http.message,org.apache.sling.api;versi
+ on="[2.2,3)",org.apache.sling.api.request;version="[2.2,3)",org.apache.
+ sling.api.servlets;version="[2.1,3)",org.apache.sling.commons.json;vers
+ ion="[2.0,3)",org.json,org.osgi.framework;version="[1.5,2)",org.osgi.se
+ rvice.component;version="[1.1,2)",org.slf4j;version="[1.6,2)"
+Tool: Bnd-2.1.0.20130426-122213
