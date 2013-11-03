@@ -15,7 +15,7 @@
 	<dependencies>
 		<dependency>
 			<groupId>${project.groupId}</groupId>
-			<artifactId>brightcove-api</artifactId>
+			<artifactId>brightcove-webservices</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 	</dependencies>

@@ -50,7 +50,8 @@
 	</build>
 
 	<modules>
-		<module>brightcove-api</module>
+		<module>brightcove-wrapper</module>
+		<module>brightcove-webservices</module>
 		<module>brightcove-content</module>
 		<module>brightcove-assembly</module>
 	</modules>
