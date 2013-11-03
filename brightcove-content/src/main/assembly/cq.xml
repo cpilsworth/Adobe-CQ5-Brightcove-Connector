@@ -13,10 +13,10 @@
 			<outputDirectory>/jcr_root</outputDirectory>
 			<excludes>
 				<exclude>**/.vlt</exclude>
-				<exclude>/libs/**</exclude>				
 				<exclude>/WEB-INF/**</exclude>
 			</excludes>
 		</fileSet>
+
 		<fileSet>
 			<directory>src/main/cq/META-INF</directory>
 			<filtered>true</filtered>
@@ -28,18 +28,13 @@
 				<exclude>/vault/filter.xml</exclude>
 			</excludes>
 		</fileSet>
-		<fileSet>
-			<directory>src/main/cq/META-INF</directory>
-			<outputDirectory>/META-INF</outputDirectory>
-			<excludes>
-				<exclude>**/*.xml</exclude>
-			</excludes>
-		</fileSet>
+
 		<fileSet>
 			<directory>src/main/vault</directory>
 			<filtered>true</filtered>
 			<outputDirectory>/META-INF/vault</outputDirectory>
 		</fileSet>
+
 		<fileSet>
 			<directory>${project.build.directory}</directory>
 			<outputDirectory>/jcr_root/apps/brightcove/install</outputDirectory>

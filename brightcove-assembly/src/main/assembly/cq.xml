@@ -29,7 +29,6 @@
 						<outputDirectory>/jcr_root</outputDirectory>
 						<excludes>
 							<exclude>**/.vlt</exclude>
-							<exclude>/libs/**</exclude>
 							<exclude>/WEB-INF/**</exclude>
 						</excludes>
 					</fileSet>
