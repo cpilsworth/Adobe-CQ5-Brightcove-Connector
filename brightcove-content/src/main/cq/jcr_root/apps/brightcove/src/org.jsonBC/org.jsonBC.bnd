@@ -1,9 +1,0 @@
-Export-Package: *
-Import-Package: *
-Private-Package: *
-# Include-Resource: 
-Bundle-Name: JSON
-Bundle-Description: Org Json For BC
-Bundle-SymbolicName: org.jsonBC
-Bundle-Version: 1.0.0-SNAPSHOT
-Bundle-Activator: org.jsonBC.Activator
