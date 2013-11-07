@@ -8,7 +8,7 @@ public enum GeoFilterCodeEnum {
 	
 	// A
 	AF("AFGHANISTAN", "af"),
-	AX("ÅLAND ISLANDS", "ax"),
+	AX("Ã…LAND ISLANDS", "ax"),
 	AL("ALBANIA", "al"),
 	DZ("ALGERIA", "dz"),
 	AS("AMERICAN SAMOA", "as"),
@@ -62,7 +62,7 @@ public enum GeoFilterCodeEnum {
 	CD("CONGO, THE DEMOCRATIC REPUBLIC OF THE", "cd"),
 	CK("COOK ISLANDS", "ck"),
 	CR("COSTA RICA", "cr"),
-	CI("CÔTE D'IVOIRE", "ci"),
+	CI("CÃ”TE D'IVOIRE", "ci"),
 	HR("CROATIA", "hr"),
 	CU("CUBA", "cu"),
 	CY("CYPRUS", "cy"),
@@ -203,12 +203,12 @@ public enum GeoFilterCodeEnum {
 	// Q
 	QA("QATAR", "qa"),
 	// R
-	RE("RÉUNION", "re"),
+	RE("RÃ‰UNION", "re"),
 	RO("ROMANIA", "ro"),
 	RU("RUSSIAN FEDERATION", "ru"),
 	RW("RWANDA", "rw"),
 	// S
-	BL("SAINT BARTHÉLEMY", "bl"),
+	BL("SAINT BARTHÃ‰LEMY", "bl"),
 	SH("SAINT HELENA", "sh"),
 	KN("SAINT KITTS AND NEVIS", "kn"),
 	LC("SAINT LUCIA", "lc"),
