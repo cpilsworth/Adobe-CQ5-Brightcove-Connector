@@ -54,7 +54,7 @@
 			<outputDirectory>/META-INF/vault</outputDirectory>
 		</fileSet>
 	<fileSet>
-			<directory>src/main/vault/profile/full</directory>
+			<directory>src/main/vault/profile/cq</directory>
 			<filtered>true</filtered>
 			<outputDirectory>/META-INF/vault</outputDirectory>
 		</fileSet>
