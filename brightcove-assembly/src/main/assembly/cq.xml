@@ -39,7 +39,7 @@
 			<binaries>
 				<outputDirectory>/jcr_root/apps/brightcove/install</outputDirectory>
 				<includeDependencies>true</includeDependencies>
-				<outputFileNameMapping>${module.artifactId}-${module.version}.${module.extension}</outputFileNameMapping>
+				<outputFileNameMapping>brightcove-cq5-${module.version}.${module.extension}</outputFileNameMapping>
 				<unpack>false</unpack>
 			</binaries>
 

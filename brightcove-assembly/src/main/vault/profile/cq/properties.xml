@@ -4,10 +4,10 @@
 <comment></comment>
 <entry key="group">${project.groupId}</entry>
 <entry key="groupId">${project.groupId}</entry>
-<entry key="name">${assembly.name}-full-author</entry>
+<entry key="name">brightcove-cq5</entry>
 <entry key="version">${project.version}</entry>
 <entry key="buildCount">${svn.revision}</entry>
 <entry key="createdBy">${project.organization.name}</entry>
-<entry key="description">${project.description}</entry>
+<entry key="description">CQ5 extension for managing Brightcove video content</entry>
 <entry key="packageFormatVersion">2</entry>
 </properties>
