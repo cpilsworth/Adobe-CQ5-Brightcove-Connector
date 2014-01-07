@@ -4,4 +4,4 @@
     jcr:description="Brightcove Video Component"
     jcr:primaryType="cq:Component"
     jcr:title="Brightcove Video"
-    componentGroup="General"/>
+    componentGroup="Common"/>
